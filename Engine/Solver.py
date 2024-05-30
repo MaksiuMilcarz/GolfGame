@@ -20,7 +20,7 @@ class Solver:
         
         for i in range(1, len(t_values)):
             state = Solver.rk4_step(state, dt)
-            
+            #print("x: ", state[0], " y: ", state[1], " Vx: ", state[2], " Vy: ", state[3])
             #stop if the object is not moving
             if(Solver.stop_moving_check(state)):
                 return state

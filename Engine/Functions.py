@@ -36,7 +36,7 @@ class F:
         Fy = kinetic_friction_force[1] + sliding_force[1]
         
         #print("slidingX: ", sliding_force[0], " frictionX: ", kinetic_friction_force[0])
-        print("slidingY: ", sliding_force[1], " frictionY: ", kinetic_friction_force[1])  
+        #print("slidingY: ", sliding_force[1], " frictionY: ", kinetic_friction_force[1])  
         
         return Fx, Fy
     
